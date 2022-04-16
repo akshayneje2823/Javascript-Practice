@@ -5,11 +5,16 @@
 // });
 
 
-let nos = [101,102,103,104]
+// let nos = [101,102,103,104]
 
-nos.forEach((id)=>{
-    console.log(id);
-});
+// nos.forEach((id)=>{
+//     console.log(id);
+// });
 
 
+var a = 50
+var y = 20
+var c= a%y
+
+console.log(c)
 

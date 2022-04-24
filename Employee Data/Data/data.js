@@ -105,7 +105,7 @@ function empData() {
         row = row + `<tr>
                     <td>${emp.id}</td>
                     <td>${emp.last_name.toUpperCase()}</td>
-                    <td>${emp.email}</td>
+                    <td>${emp.email.toLowerCase()}</td>
                     <td>${emp.gender}</td>
                </tr>`
     //  for (let emp = 0; emp < employee.length; emp++) {

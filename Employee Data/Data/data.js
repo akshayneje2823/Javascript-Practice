@@ -104,11 +104,20 @@ function empData() {
     for (const emp of employee) {
         row = row + `<tr>
                     <td>${emp.id}</td>
-                    <td>${emp.last_name}</td>
+                    <td>${emp.last_name.toUpperCase()}</td>
                     <td>${emp.email}</td>
                     <td>${emp.gender}</td>
                </tr>`
-               console.log("hello")
+    //  for (let emp = 0; emp < employee.length; emp++) {
+    //      const element = array[emp];
+    //      emp = emp + `<tr>
+    //                 <td>${emp.id}</td>
+    //                 <td>${emp.last_name}</td>
+    //                 <td>${emp.email}</td>
+    //                 <td>${emp.gender}</td>
+    //            </tr>`
+         
+    //  }
 
     }
     document.getElementById("hero").innerHTML = row

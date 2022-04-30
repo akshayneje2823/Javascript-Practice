@@ -108,17 +108,7 @@ function empData() {
                     <td>${emp.email.toLowerCase()}</td>
                     <td>${emp.gender}</td>
                </tr>`
-    //  for (let emp = 0; emp < employee.length; emp++) {
-    //      const element = array[emp];
-    //      emp = emp + `<tr>
-    //                 <td>${emp.id}</td>
-    //                 <td>${emp.last_name}</td>
-    //                 <td>${emp.email}</td>
-    //                 <td>${emp.gender}</td>
-    //            </tr>`
-         
-    //  }
-
+    
     }
     document.getElementById("hero").innerHTML = row
 }

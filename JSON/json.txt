@@ -1,0 +1,10 @@
+JSON is format for  storing and transporting data
+
+often used when data sent from one server to another server tom web page
+
+
+
+
+
+
+

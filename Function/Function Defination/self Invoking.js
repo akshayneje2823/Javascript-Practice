@@ -1,3 +1,4 @@
 console.log((function(){
-    let x = "hello";
+    var x = "hello";
+    // console.log(x)
 })());

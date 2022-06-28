@@ -1,11 +1,11 @@
 const Person = {
-    fullName : function(){
-        return this.firstName + " " + this.lastName 
+    fullName : function(country){
+        return this.firstName + " " + this.lastName +" from "+ country
     }
 }
 const person1 = {
-    firstName:"Call",
-    lastName: "Mathod"
+    firstName:"Akahay",
+    lastName: "Neje"
 } 
 
 const person2 = {
@@ -13,5 +13,5 @@ const person2 = {
     lastName:"Kamate"
 }
 
-console.log(Person.fullName.call(person1))
-console.log(Person.fullName.call(person2))
+console.log(Person.fullName.call(person1,"Maharashtra"))
+console.log(Person.fullName.call(person2,"Maharashtra"))
